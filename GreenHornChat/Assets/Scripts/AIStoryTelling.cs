@@ -1,5 +1,5 @@
 ﻿
-using UnityEditor.Rendering;
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,12 +17,13 @@ public class AIStoryTelling : MonoBehaviour
     public string lastText;
     private double timer;
     private bool imageStep;
+	public double setupTime;
    
 	// Use this for initialization
 	void Start ()
 	{
 	    steps = 1;
-	    timer = 2;
+	    timer = setupTime;
         
 	    
 	}
@@ -41,7 +42,7 @@ public class AIStoryTelling : MonoBehaviour
 	        newStep = false;
             StoryStep(steps);
             steps++;
-            timer = 2;
+            timer = setupTime;
 	        
            
 
