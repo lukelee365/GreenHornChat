@@ -2,8 +2,11 @@
 # Unity generated #
 # =============== #
 [Tt]emp/
+Assets/Assets/Stylized Nature Pack/
+Assets/Assets/Stylized Nature Pack.meta
+KSEditorLogs/
 [Oo]bj/
-[Bb]uild
+[Bb]uilds/
 /[Ll]ibrary/
 sysinfo.txt
 *.stackdump
@@ -22,6 +25,7 @@ sysinfo.txt
 /*.unityproj
 /*.booproj
 /.idea*/
+.vscode/
  
 # ============ #
 # OS generated #
